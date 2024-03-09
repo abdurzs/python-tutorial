@@ -37,3 +37,4 @@ else:
     print("Cuba lagi!")
 
 print("Mantap, anda dapat jawab " + str(markah) + " soalan dengan betul! ")
+print("Kemah " + str((markah/4) * 100) + " % untuk anda!")
