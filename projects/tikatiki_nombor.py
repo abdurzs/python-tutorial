@@ -13,4 +13,21 @@ else:
     quit()
 
 random_number = random.randint(0, top_of_range)
-print(random_number)
+teka = 0
+
+while True:
+    teka += 
+    teka = input("Sila teka satu nombor: ")
+    if teka.isdigit():
+        teka = int(teka)
+    else:
+        print("Sila tulis nombor sahaja.")
+        continue
+
+    if teka == random_number:
+        print("Tepat tekaan anda")
+        break
+    else:
+        print("Cuba lagi.")
+
+print("Anda berjaya menjawab dngn tepat!", + int(teka) +, "teka")
